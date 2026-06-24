@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "can_string.o" --strict --scatter "CAN_PGMS.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\CAN_PGMS.map" -o "CAN_PGMS.axf"

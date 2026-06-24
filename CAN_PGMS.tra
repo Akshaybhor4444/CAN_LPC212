@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'CAN_PGMS.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"can_string.o"'
+### ADS-LD Command completed:
+--device DARMP "startup.o" "can_string.o" --strict --scatter "CAN_PGMS.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\CAN_PGMS.map" -o "CAN_PGMS.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'CAN_PGMS.axf'
+### ADS-LD Command File: 'CAN_PGMS.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'CAN_PGMS.lnp', Handle=0x000005C4
+### Writing '.lnp' file
+### ADS-LD Command file 'CAN_PGMS.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
