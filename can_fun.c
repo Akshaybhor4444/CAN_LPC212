@@ -2,6 +2,11 @@
 
 #include "lcd_fun.c"
 
+
+// checking the git 
+
+
+
 unsigned int MSG[10];
 
 void can_config(void)
